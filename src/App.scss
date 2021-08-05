@@ -1,0 +1,30 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: lightblue;
+        position: relative;
+        top: 70px;
+        scroll-behavior: smooth;
+        // for scroll use snap scrolling it'll jump next section when it reach near.
+        scroll-snap-type: y mandatory;
+        // hide scroll bar 
+        scrollbar-width: none; // for firefox
+        // for other browsers
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+
+        // now for all other sections work, portfolio, etc
+        // > use 
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+            // scroll-behavior: smooth;
+        }
+    }
+}

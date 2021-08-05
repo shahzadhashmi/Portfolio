@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CAatB;;AAlBD,AAOI,OAPG,CAOH,UAAU,CAAC;EACP,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CAO1B;;AAjBL,AAYY,OAZL,CAOH,UAAU,CAIN,MAAM,CACF,EAAE,CAAC;EACC,SAAS,EAAE,IAAI;EACf,KAAK,EChBT,OAAO;CDiBN",
+    "sources": [
+        "Skills.scss",
+        "../../global.scss"
+    ],
+    "names": [],
+    "file": "Skills.css"
+}

@@ -1,0 +1,43 @@
+$mainColor: #15023a;
+
+// Phone Portrait and landscape
+// $min-sm-width: 360px;
+// $max-sm-width: 768px;
+
+// Small Tablets Portrait view
+// $min-md-width: 576px;
+// $min-md-width: 768px;
+
+// Tablets and small desktops
+// $min-lg-width: 768px;
+// $min-lg-width: 992px;
+
+// large Tablets and desktops
+// $min-xl-width: 992px;
+// $min-xl-width: 1200px;
+
+// @mixin sm {
+//     @media screen {
+//         min-width: #{$min-sm-width};
+//         @content;
+//     }
+// }
+
+// @mixin md {
+//     @media screen {
+//         min-width: #{$min-md-width};
+//         @content;
+//     }
+// }
+
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 280px) {
+        @content;
+    }
+}
